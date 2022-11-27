@@ -1,3 +1,7 @@
+# Chrome Extension
+
+Chrome Extension is available on [Chrome Web Store](https://chrome.google.com/webstore/detail/tweet-peep-%F0%9F%91%80/naajicfpnocgkefffkgekndknlifgagb)
+
 # tweetPeep
 
 I'm [Kazuki](https://twitter.com/kazuki_sf_), a creator of Tweet Peep 👀
