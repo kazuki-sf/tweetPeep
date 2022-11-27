@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth !important;
+}
+  
+body, body * {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #353535;
+}
+
+header {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 12px;
+    text-align: left;
+    user-select: none;
+}
+
+.see_on_twitter_wrapper {
+    width: 92%;
+    background-color: #FFFFFF;
+    display: block;
+    user-select: none;
+    margin: auto;
+    margin-top: 6px;
+    padding: 6px 0px 8px 0px;
+    border-radius: 2px;
+}
+
+.see_on_twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin: auto;
+    padding: 0px;
+    height: 24px;
+}
+
+.see_on_twitter_wrapper:hover {
+    cursor: pointer;
+    background-color: #EAEAEA;
+}
+
+.see_on_twitter_p {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.shortcut_key_desc {
+    font-size: 12px;
+    line-height: 12px;
+    color: #8B8B8B;
+    margin: auto;
+    text-align: center;
+}
+
+.shortcut_key_desc_search {
+    font-size: 12px;
+    line-height: 12px;
+    color: #8B8B8B;
+    margin-left: 6px;
+}
+
+.action_wrapper {
+    margin-top: 10px;
+    padding: 0px 12px;
+    user-select: none;
+}
+
+.search_title {
+    display: flex;
+    justify-items: left;
+    align-items: center;
+}
+
+.search_header {
+    font-size: 16px;
+}
+
+.search_input_wrapper {
+    width: 100%;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #E6ECF0;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.search_input {
+    margin-left: 4px;
+    border: none;
+    background-color: #E6ECF0;
+    outline: none;
+    height: 22px;
+    line-height: 23px;
+    width: 100%;
+}
+
+.separator {
+    width: 90%;
+    border-bottom: thin solid #BCBCBC;
+    margin: auto;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+.credit {
+    font-size: 11px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}

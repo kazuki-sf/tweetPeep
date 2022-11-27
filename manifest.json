@@ -1,0 +1,32 @@
+{
+  "name": "Tweet Peep 👀",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Peep Thoughts on Twitter",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_icon": {
+      "48": "src/images/48.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["src/contentscript/content.js"],
+      "all_frames": false
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "icons": {
+    "16": "src/images/16.png",
+    "48": "src/images/48.png",
+    "128": "src/images/128.png"
+  },
+  "permissions": ["tabs", "contextMenus"]
+}
